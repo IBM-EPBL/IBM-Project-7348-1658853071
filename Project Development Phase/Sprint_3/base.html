@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car resale value </title>
+    <link rel="stylesheet" href="C:\Users\user\Car Value Prediction\static\resule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="/"><img src="C:\Users\user\Car Value Prediction\static\car1.png"></a>
+  
+      </nav>
+        <div class="text-box">
+          <h1>Car resale value Predictor</h1>
+          <p>Best system to predict the amount of resale value based on the parameters provided by the user .</p>
+          <a href="./predict_page" class="visit-btn ">Check price</a>
+        </div>
+    </section>
+    
+  </body>
+</html>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(25,30,30,0.7),rgba(25,30,30,0.7)),url('C:\Users\user\Car Value Prediction\static\car1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .text-box{
+    text-align: center;
+    position: relative;
+    color:  #FFE4C4;
+    top:50%;
+  }
+  .text-box h1{
+    margin-top: 50px;
+    font-size: 55px;
+  }
+  .text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+  }
+  .visit-btn{
+    display: inline;
+    border: 3px solid #fff;
+    padding:10px 14px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    text-decoration:none;
+  }
+</style>
